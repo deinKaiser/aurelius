@@ -1,0 +1,25 @@
+{
+  "name": "aurelius",
+  "version": "0.0.1",
+  "description": "Aurelius is a Node.js backend framework that embodies the philosophy of minimalism and embraces developer freedom.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deinKaiser/aurelius.git"
+  },
+  "author": "Vadym Yarema",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deinKaiser/aurelius/issues"
+  },
+  "homepage": "https://github.com/deinKaiser/aurelius#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "tslib": "^2.6.2"
+  }
+}
