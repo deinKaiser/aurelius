@@ -1,0 +1,16 @@
+{
+  "name": "@aurelius/core",
+  "version": "0.0.1",
+  "description": "Core functionality of Aurelius",
+  "author": "Vadym Yarema",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deinKaiser/aurelius.git",
+    "directory": "packages/core"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "tslib": "^2.6.2"
+  }
+}
