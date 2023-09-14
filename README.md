@@ -1,7 +1,7 @@
 # Aurelius - A Node.js Ode to Minimalism
 
 <p align="center">
-  <a href="https://github.com/deinKaiser/aurelius" target="blank"><img src="aurelius-logo.png" width="120" alt="Aurelius Logo" /></a>
+  <a href="https://github.com/deinKaiser/aurelius" target="blank"><img src="https://raw.githubusercontent.com/deinKaiser/aurelius/master/aurelius-logo.png" width="120" alt="Aurelius Logo" /></a>
 </p>
 <p align="center">
   Aurelius: A canvas where code meets philosophy, and minimalism grants freedom.
