@@ -1,6 +1,6 @@
 {
   "name": "aurelius",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Aurelius is a Node.js backend framework that embodies the philosophy of minimalism and embraces developer freedom.",
   "scripts": {
     "clean": "tsc -b --clean packages",
