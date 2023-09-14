@@ -3,7 +3,12 @@
   "version": "0.0.1",
   "description": "Aurelius is a Node.js backend framework that embodies the philosophy of minimalism and embraces developer freedom.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "tsc -b --clean packages",
+    "build:prod": "tsc -b -v packages",
+    "prerelease": "gulp copy-misc",
+    "publish:prod": "npm run clean && npm run build:prod && lerna publish --force-publish --exact -m \"chore(@aurelius-js) publish %s release\"",
+    "lint": "eslint 'packages/**/**.ts'",
+    "test": "mocha packages/**/*.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -16,6 +21,7 @@
   },
   "homepage": "https://github.com/deinKaiser/aurelius#readme",
   "devDependencies": {
+    "lerna": "^7.3.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {

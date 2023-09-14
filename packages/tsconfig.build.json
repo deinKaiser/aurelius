@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.build.json",
+  "compilerOptions": {
+    "outDir": ".",
+    "rootDir": ".",
+    "paths": {
+      "@aurelius-js/core": ["../core"],
+      "@aurelius-js/core/*": ["../core/*"],
+    }
+  },
+  "exclude": ["node_modules", "dist", "test/**/*", "*.spec.ts"],
+  "references": [
+    {
+      "path": "./core/tsconfig.build.json"
+    },
+  ]
+}
