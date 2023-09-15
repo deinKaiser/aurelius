@@ -1,6 +1,6 @@
 {
   "name": "@aurelius-js/core",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Core functionality of Aurelius",
   "author": "Vadym Yarema",
   "license": "ISC",
@@ -12,5 +12,10 @@
   "dependencies": {
     "reflect-metadata": "^0.1.13",
     "tslib": "^2.6.2"
-  }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "index.js",
+  "types": "index.d.ts"
 }
